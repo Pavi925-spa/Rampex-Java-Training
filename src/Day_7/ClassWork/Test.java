@@ -7,5 +7,6 @@ public class Test {
         String name = sc.nextLine();
         System.out.print("Enter your age:");
         int age = sc.nextInt();
+        System.out.println("Your name "+ name + " and your age "+ age);
     }
 }
