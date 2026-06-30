@@ -3,9 +3,9 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number,A: ");
+        System.out.print("Enter a number A: ");
         int a = sc.nextInt();
-        System.out.print("Enter a number,B: ");
+        System.out.print("Enter a number B: ");
         int b = sc.nextInt();
         int choice;
         do {
@@ -41,7 +41,6 @@ public class Calculator {
                     System.out.println("Invalid Number! Please try again.");
             }
         } while (choice != 5);
-
         sc.close();
     }
 }
