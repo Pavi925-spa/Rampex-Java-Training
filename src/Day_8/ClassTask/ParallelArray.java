@@ -16,7 +16,6 @@ public class ParallelArray {
                 System.out.print(prices[i] * qty);
             }
         }
-        System.out.println(Arrays.toString(prices));
     }
 
 }
