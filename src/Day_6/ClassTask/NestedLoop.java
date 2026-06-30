@@ -1,4 +1,4 @@
-package ClassWork.Day_6;
+package Day_6.ClassTask;
 
 public class NestedLoop {
     public static void main(String[] args){
